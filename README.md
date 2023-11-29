@@ -591,7 +591,7 @@ async onSearchById(value) {
 ```
 
 ### 3. 启动阿里低代码平台报错 error in ./node_modules/@alifd/next/es/grid/main.scss
-![image.png](./img/error_node_module.png)
+![image.png](./lce使用手册/img/error_node_module.png)
 错误提示是在main.scss这个文件里有一行代码错误了。
 所以直接找到这个文件对应的这行，然后把这行删掉
 ```javascript
@@ -601,7 +601,7 @@ async onSearchById(value) {
 ### 4. 报错“NextP component is not found in components list!”
 高级对话框和高级表单联用会报错
 解决方案：手动编辑schema，删除红框处的“段落”可修复
-![image.png](./img/删除段落.png)
+![image.png](./lce使用手册/img/删除段落.png)
 
 ### 5. 前端项目的打包发布
 点击出码按钮后会得到一个压缩包，对其进行解压并切换到该目录后，执行命令`npm run build`将会直接进行打包。
@@ -614,4 +614,4 @@ async onSearchById(value) {
 
 ### 6. build项目之后打开index.html页面没有内容显示
 编辑index.html源码,在引用css与js的地方删除第一个斜杠
-![image.png](./img/error_html.png)
+![image.png](./lce使用手册/img/error_html.png)
